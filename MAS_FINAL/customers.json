@@ -1,0 +1,31 @@
+[
+  {
+    "Id": 1,
+    "FirstName": "jacek",
+    "LastName": "jaworek",
+    "TicketType": "Normalny",
+    "Purchases": [
+      {
+        "ProductId": 4085,
+        "ProductName": "Normalny",
+        "ProductPrice": 50.0,
+        "Quantity": 2,
+        "PurchaseDate": "2024-06-23T01:36:19.0997542+02:00"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "FirstName": "Guest",
+    "LastName": "User",
+    "TicketType": null,
+    "Purchases": []
+  },
+  {
+    "Id": 3,
+    "FirstName": "rrr",
+    "LastName": "rrr",
+    "TicketType": null,
+    "Purchases": []
+  }
+]

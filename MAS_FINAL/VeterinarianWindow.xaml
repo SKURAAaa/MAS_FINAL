@@ -1,0 +1,17 @@
+﻿<Window x:Class="MAS_FINAL.VeterinarianWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Weterynarz - Szczepienia i Historia Chorób" Height="550" Width="600">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="500">
+            <TextBlock Text="Lista Zwierząt:" FontWeight="Bold" FontSize="16" Margin="0,10"/>
+            <ListBox x:Name="AnimalListBox" Height="100" SelectionChanged="AnimalListBox_SelectionChanged"/>
+            <TextBlock Text="Szczepienia:" FontWeight="Bold" FontSize="16" Margin="0,10"/>
+            <TextBox x:Name="VaccinationTextBox" Height="100" IsReadOnly="True" TextWrapping="Wrap"/>
+            <TextBlock Text="Historia Chorób:" FontWeight="Bold" FontSize="16" Margin="0,10"/>
+            <TextBox x:Name="DiseaseHistoryTextBox" Height="100" IsReadOnly="True" TextWrapping="Wrap"/>
+            <Button Content="Wystaw receptę" Width="200" Height="40" Margin="20,10" Click="IssuePrescription_Click"/>
+            <Button Content="Zapisz" Width="200" Height="40" Margin="20,10" Click="SaveChanges_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

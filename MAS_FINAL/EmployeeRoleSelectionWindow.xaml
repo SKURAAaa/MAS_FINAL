@@ -1,0 +1,13 @@
+﻿<Window x:Class="MAS_FINAL.EmployeeRoleSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wybierz rolę" Height="200" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Zaloguj jako:" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <Button Content="Pracownik" Width="200" Height="40" Margin="0,10" Click="Employee_Click"/>
+            <Button Content="Kierownik" Width="200" Height="40" Margin="0,10" Click="Manager_Click"/>
+            <Button Content="Weterynarz" Width="200" Height="40" Margin="0,10" Click="Veterinarian_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

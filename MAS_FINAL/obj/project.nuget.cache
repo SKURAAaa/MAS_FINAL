@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dIBDPLGiCKQ+LAO3nqfGd5nzJIOLhZLQBFqlzb4xGK03RY1e57V9FUGbRxdIao+cqz1IH1DwVvBwIgdOau4Ytg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kacper\\RiderProjects\\MAS_FINAL\\MAS_FINAL\\MAS_FINAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kacper\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

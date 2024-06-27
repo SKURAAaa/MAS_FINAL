@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "FirstName": "Jan",
+    "LastName": "Kowalski",
+    "HireDate": "2020-01-15T00:00:00",
+    "Salary": 3000,
+    "Role": "Weterynarz",
+    "Skills": null,
+    "Specialization": null
+  },
+  {
+    "Id": 2,
+    "FirstName": "Anna",
+    "LastName": "Nowak",
+    "HireDate": "2019-03-22T00:00:00",
+    "Salary": 4500,
+    "Role": "Weterynarz",
+    "Skills": null,
+    "Specialization": null
+  }
+]

@@ -1,0 +1,18 @@
+﻿<Window x:Class="MAS_FINAL.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="300" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Login" FontSize="24" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+            <TextBlock Text="Imię:"/>
+            <TextBox x:Name="FirstNameTextBox" Width="200" Margin="0,10"/>
+            <TextBlock Text="Nazwisko:"/>
+            <TextBox x:Name="LastNameTextBox" Width="200" Margin="0,10"/>
+            <Button Content="Zaloguj jako klient" Width="200" Height="40" Margin="0,10" Click="CustomerLogin_Click"/>
+            <Button Content="Zaloguj jako pracownik" Width="200" Height="40" Margin="0,10" Click="EmployeeLogin_Click"/>
+            <Button Content="Rejestracja" Width="200" Height="40" Margin="0,10" Click="Register_Click"/>
+            <Button Content="Kontynuuj jako gość" Width="200" Height="40" Margin="0,10" Click="ContinueAsGuest_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

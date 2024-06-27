@@ -1,0 +1,64 @@
+[
+  {
+    "Id": 1,
+    "Species": "Lew",
+    "Age": 5,
+    "HealthStatus": "Healthy",
+    "History": {
+      "Vaccinations": [
+        "2021-07-14: Wścieklizna"
+      ],
+      "Illnesses": [
+        "2022-01-30: Zakażenie bakteryjne"
+      ]
+    },
+    "Enclosure": null
+  },
+  {
+    "Id": 2,
+    "Species": "Tygrys",
+    "Age": 4,
+    "HealthStatus": "Healthy",
+    "History": {
+      "Vaccinations": [
+        "2020-05-21: Panleukopenia"
+      ],
+      "Illnesses": [
+        "2021-03-15: Choroba dróg oddechowych",
+        "test - Dawkowanie: 1"
+      ]
+    },
+    "Enclosure": null
+  },
+  {
+    "Id": 3,
+    "Species": "Słoń",
+    "Age": 12,
+    "HealthStatus": "Healthy",
+    "History": {
+      "Vaccinations": [
+        "2019-09-30: Tężec"
+      ],
+      "Illnesses": [
+        "2020-08-19: Problemy z trawieniem",
+        "testtest - Dawkowanie: 2333"
+      ]
+    },
+    "Enclosure": null
+  },
+  {
+    "Id": 4,
+    "Species": "Żyrafa",
+    "Age": 7,
+    "HealthStatus": "Healthy",
+    "History": {
+      "Vaccinations": [
+        "2021-11-11: Odra"
+      ],
+      "Illnesses": [
+        "2022-04-22: Problemy ze stawami"
+      ]
+    },
+    "Enclosure": null
+  }
+]

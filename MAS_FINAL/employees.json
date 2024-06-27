@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "FirstName": "Jan",
+    "LastName": "Kowalski",
+    "Role": "Opiekun",
+    "HireDate": "2020-01-15T00:00:00",
+    "Salary": 3000,
+    "AssignedAnimals": [],
+    "Skills": "Feeding animals, Cleaning enclosures"
+  },
+  {
+    "Id": 2,
+    "FirstName": "Anna",
+    "LastName": "Nowak",
+    "Role": "Weterynarz",
+    "HireDate": "2019-03-22T00:00:00",
+    "Salary": 4500,
+    "AssignedAnimals": [],
+    "Specialization": "Large mammals"
+  }
+]
